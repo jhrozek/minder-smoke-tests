@@ -158,6 +158,10 @@ cleanup() {
     cleanup_script
 }
 
+breakpoint() {
+    read -n 1 -s -p "Press any key to continue"
+}
+
 ############
 # Test
 ############
